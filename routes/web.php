@@ -5,6 +5,8 @@ use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PendaftaranController;
 use App\Http\Controllers\StudentSessionController;
 
+Route::post('/register', [CustomRegisteredUserController::class, 'store']);
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,4 +37,4 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
     });
 });
 Route::get('/pendaftaran', [PendaftaranController::class, 'index'])->name('pendaftaran.index');
-Route::post('/pendaftaran', [PendaftaranController::class, 'store'])->name('auth.pendaftaran');
+Route::post('/pendaftaran', [PendaftaranController::class, 'store'])->name('pendaftaran.store');

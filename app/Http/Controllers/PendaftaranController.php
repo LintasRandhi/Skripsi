@@ -15,10 +15,11 @@ class PendaftaranController extends Controller
     public function store(Request $request)
         {
            $validated = $request->validate([
-               'tanggal' => 'required|date',
-             'nama' => 'required|string',
+                'tanggal' => 'required|date',
+                'nama' => 'required|string',
                 'sekolah' => 'required|string',
                 'nama_sekolah' => 'nullable|string',
+                'kelas_sekolah'=> 'nullable|string',
                 'tanggal_lahir' => 'required|date',
                 'tanggal_mulai' => 'required|date',
                 'kelas' => 'nullable|string',
@@ -34,6 +35,7 @@ class PendaftaranController extends Controller
             ]);
     
             // Redirect or respond as needed
-            return view('auth.pendaftaran');
+            return view('auth.login');
     }
+
 }

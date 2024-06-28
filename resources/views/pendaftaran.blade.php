@@ -13,7 +13,7 @@
                     <input type="date" class="form-control" id="tanggal" name="tanggal" required>
                 </div>
                 <div class="form-group">
-                    <label for="nama">Nama Calon Siswa</label>
+                    <label for="nama">Nama Calon murid</label>
                     <input type="text" class="form-control" id="nama" name="nama" required>
                 </div>
                 <div class="form-group">
@@ -26,8 +26,12 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="namaSekolah">Nama Sekolah dan Kelas</label>
+                    <label for="namaSekolah">Nama Sekolah</label>
                     <input type="text" class="form-control" id="namaSekolah" name="nama_sekolah">
+                </div>
+                <div class="form-group">
+                    <label for="kelasSekolah">kelas</label>
+                    <input type="text" class="form-control" id="kelasSekolah" name="kelas_sekolah">
                 </div>
                 <div class="form-group">
                     <label for="tanggalLahir">Tanggal Lahir</label>
