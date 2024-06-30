@@ -42,8 +42,25 @@
                     <input type="date" class="form-control" id="tanggalMulai" name="tanggal_mulai" required>
                 </div>
                 <div class="form-group">
-                    <label for="kelas">Kelas</label>
-                    <input type="text" class="form-control" id="kelas" name="kelas">
+                    <label for="level">level</label>
+                    <select class="form-control" id="level" name="level">
+                        <option>toodler</option>
+                        <option>preschool</option>
+                        <option>pre robotic 1</option>
+                        <option>pre robotic 2</option>
+                        <option>pre robotic 3</option>
+                        <option>pre robotic 4</option>
+                        <option>robotic 1</option>
+                        <option>robotic 2</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pilihLes">Pilih Les</label>
+                    <select class="form-control" id="pilihLes" name="pilih_les">
+                        <option>robotic</option>
+                        <option>coding</option>
+                        <option>Animasi</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="hari">Hari</label>
