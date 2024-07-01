@@ -35,32 +35,6 @@
                             <p>Content for box 2.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="box" style="border: 2px solid #ddd; padding: 20px; border-radius: 5px;">
-                            <h5>Menu Pembayaran</h5>
-                            <p>Content for box 3.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-4">
-                    <div class="col-md-4 mb-4">
-                        <div class="box" style="border: 2px solid #ddd; padding: 20px; border-radius: 5px;">
-                            <h5>Menu Pembayaran</h5>
-                            <p>Content for box 4.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="box" style="border: 2px solid #ddd; padding: 20px; border-radius: 5px;">
-                            <h5>Menu Pembayaran</h5>
-                            <p>Content for box 5.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="box" style="border: 2px solid #ddd; padding: 20px; border-radius: 5px;">
-                            <h5>Menu Pembayaran</h5>
-                            <p>Content for box 6.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
