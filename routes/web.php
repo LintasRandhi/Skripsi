@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PendaftaranController;
 use App\Http\Controllers\StudentSessionController;
+use app\Http\Controllers\CustomRegisteredUserController;
 
 Route::post('/register', [CustomRegisteredUserController::class, 'store']);
 
