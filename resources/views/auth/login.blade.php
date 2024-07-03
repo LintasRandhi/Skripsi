@@ -3,8 +3,8 @@
         <div class="auth-logo">
             <a href="index.html"><img src="{{ asset('/images/logo/robotickidz.png') }}" alt="Logo"></a>
         </div>
-        <h1 class="auth-title">Log in.</h1>
-        <p class="auth-subtitle mb-5">Log in with your data that you entered during registration.</p>
+        <h1 class="auth-title">Selamat Datang</h1>
+        <p class="auth-subtitle mb-5">Silahkan Melakukan Login</p>
 
         @if (session('status'))
         <div class="mb-4 font-medium text-sm text-green-600">
@@ -42,15 +42,14 @@
         </form>
         <div class="text-center mt-5 text-lg fs-4">
             @if (Route::has('register'))
-            <p class="text-gray-600">Don't have an account? <a href="{{route('register')}}" class="font-bold">Sign
-                    up</a>.</p>
+            <p class="text-gray-600">tidak memiliki akun? <a href="{{route('register')}}" class="font-bold">daftar diri</a>.</p>
             @endif
 
-            <p><a class="font-bold" href="{{route('pendaftaran.index')}}">Pendaftaran</a>.</p>
+            <!--<p><a class="font-bold" href="{{route('pendaftaran.index')}}">Pendaftaran</a>.</p>-->
 
-            <!-- @if (Route::has('password.request'))
+            @if (Route::has('password.request'))
             <p><a class="font-bold" href="{{route('password.request')}}">Forgot password?</a>.</p>
-            @endif -->
+            @endif
         </div>
     </div>
 </x-guest-layout>

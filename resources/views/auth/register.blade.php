@@ -3,8 +3,8 @@
         <div class="auth-logo">
             <a href="index.html"><img src="{{ asset('/images/logo/robotickidz.png') }}" alt="Logo"></a>
         </div>
-        <h1 class="auth-title">Sign Up</h1>
-        <p class="auth-subtitle mb-5">Input your data to register to our website.</p>
+        <h1 class="auth-title">step 1</h1>
+        <p class="auth-subtitle mb-5">silahkan input akun </p>
 
         <form action="" method="POST">
             @csrf
@@ -48,7 +48,7 @@
                 </x-jet-label>
             </div>
             @endif
-            <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Sign Up</button>
+            <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">next</button>
         </form>
         <div class="text-center mt-5 text-lg fs-4">
             <p class='text-gray-600'>Already have an account? <a href="{{ route('login') }}" class="font-bold">Log
