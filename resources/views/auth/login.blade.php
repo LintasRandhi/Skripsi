@@ -42,7 +42,7 @@
         </form>
         <div class="text-center mt-5 text-lg fs-4">
             @if (Route::has('register'))
-            <p class="text-gray-600">tidak memiliki akun? <a href="{{route('register')}}" class="font-bold">daftar diri</a>.</p>
+            <p class="text-gray-600">tidak memiliki akun? <a href="{{route('register')}}" class="font-bold">Daftar Diri</a>.</p>
             @endif
 
             <!--<p><a class="font-bold" href="{{route('pendaftaran.index')}}">Pendaftaran</a>.</p>-->

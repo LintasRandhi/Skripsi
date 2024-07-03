@@ -4,7 +4,7 @@
             <a href="index.html"><img src="{{ asset('/images/logo/robotickidz.png') }}" alt="Logo"></a>
         </div>
         <div class="container mt-5">
-            <h2 class="mb-4">Form Pendaftaran Robotickidz</h2>
+            <h2 class="mb-4">Step 2 Pendaftaran Robotickidz</h2>
             
                 @csrf
 
