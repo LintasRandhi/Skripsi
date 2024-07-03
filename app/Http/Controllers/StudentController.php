@@ -34,6 +34,8 @@ class StudentController extends Controller
             'jadwal_kelas' => 'required',
             'level' => 'required',
             'no_hp' => 'required',
+            'nama_orangtua' => 'required',
+            'alamat' => 'required',
         ]);
 
         Student::create($request->all());
@@ -57,6 +59,8 @@ class StudentController extends Controller
             'jadwal_kelas' => 'required',
             'level' => 'required',
             'no_hp' => 'required',
+            'nama_orangtua' => 'required',
+            'alamat' => 'required',
         ]);
 
         $student = Student::findOrFail($id);
