@@ -19,7 +19,7 @@ class PendaftaranController extends Controller
                 'nama' => 'required|string',
                 'sekolah' => 'required|string',
                 'nama_sekolah' => 'nullable|string',
-                'kelas_sekolah'=> 'nullable|string',
+                'kelas_sekolah'=> 'nullable|npstring',
                 'tanggal_lahir' => 'required|date',
                 'tanggal_mulai' => 'required|date',
                 'level' => 'required|string',

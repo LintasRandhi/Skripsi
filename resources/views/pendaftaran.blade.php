@@ -7,11 +7,6 @@
             <h2 class="mb-4">Step 2 Pendaftaran Robotickidz</h2>
             
                 @csrf
-
-                <div class="form-group">
-                    <label for="tanggal">Tanggal</label>
-                    <input type="date" class="form-control" id="tanggal" name="tanggal" required>
-                </div>
                 <div class="form-group">
                     <label for="nama">Nama murid</label>
                     <input type="text" class="form-control" id="nama" name="nama" required>
@@ -57,8 +52,8 @@
                 <div class="form-group">
                     <label for="pilihLes">Pilih Les</label>
                     <select class="form-control" id="pilihLes" name="pilih_les">
-                        <option>robotic</option>
-                        <option>coding</option>
+                        <option>Robotic</option>
+                        <option>Coding</option>
                         <option>Animasi</option>
                     </select>
                 </div>
