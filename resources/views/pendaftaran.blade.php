@@ -13,7 +13,7 @@
                     <input type="date" class="form-control" id="tanggal" name="tanggal" required>
                 </div>
                 <div class="form-group">
-                    <label for="nama">Nama Calon murid</label>
+                    <label for="nama">Nama murid</label>
                     <input type="text" class="form-control" id="nama" name="nama" required>
                 </div>
                 <div class="form-group">
@@ -71,20 +71,12 @@
                     <input type="text" class="form-control" id="jam" name="jam">
                 </div>
                 <div class="form-group">
-                    <label for="holidayProgram">Holiday Program</label>
-                    <input type="date" class="form-control" id="holidayProgram" name="holiday_program">
-                </div>
-                <div class="form-group">
                     <label for="namaOrangTua">Nama Orang Tua</label>
                     <input type="text" class="form-control" id="namaOrangTua" name="nama_orang_tua" required>
                 </div>
                 <div class="form-group">
                     <label for="alamat">Alamat</label>
                     <textarea class="form-control" id="alamat" name="alamat" rows="3" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="noTelepon">No. Telepon Rumah</label>
-                    <input type="tel" class="form-control" id="noTelepon" name="no_telepon">
                 </div>
                 <div class="form-group">
                     <label for="noHandphone">No. Handphone</label>
