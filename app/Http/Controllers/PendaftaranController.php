@@ -15,7 +15,6 @@ class PendaftaranController extends Controller
     public function store(Request $request)
         {
            $validated = $request->validate([
-                'tanggal' => 'required|date',
                 'nama' => 'required|string',
                 'sekolah' => 'required|string',
                 'nama_sekolah' => 'nullable|string',
